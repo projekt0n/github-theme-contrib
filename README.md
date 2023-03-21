@@ -34,6 +34,10 @@ Credit: [@dadyarri](https://github.com/dadyarri)
 
 Credit: [@ful1e5](https://github.com/ful1e5)
 
+### Wezterm
+
+Credit: [@vrslev](https://github.com/vrslev)
+
 ### Windows Terminal
 
 Credit: [@mutecipher](https://github.com/mutecipher)
