@@ -1,7 +1,7 @@
 [colors]
-background = '#f6f8fa'
-cursor_bg = '#044289'
-cursor_border = '#044289'
+background = '#ffffff'
+cursor_bg = '#0969da'
+cursor_border = '#0969da'
 cursor_fg = '#ffffff'
 foreground = '#0E1116'
 selection_bg = '#dbe9f9'
