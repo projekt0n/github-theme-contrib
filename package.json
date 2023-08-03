@@ -1,0 +1,22 @@
+{
+  "name": "github-theme-contrib",
+  "version": "1.0.0",
+  "description": "GitHub's themes ports and extras",
+  "main": "dist/index.js",
+  "repository": "git@github.com:projekt0n/github-theme-contrib.git",
+  "author": "Abdulkaiz Khatri<kaizmandhu@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/generate.ts"
+  },
+  "dependencies": {
+    "@primer/primitives": "^7.11.14"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.6",
+    "nodemon": "^3.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
