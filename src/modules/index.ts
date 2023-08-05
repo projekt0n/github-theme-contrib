@@ -9,13 +9,13 @@ import windows_terminal from "./windows_terminal";
 import xresources from "./xresources";
 
 export default {
-  // alacritty,
-  // foot,
+  alacritty,
+  foot,
   iterm,
-  // kitty,
-  // konsole,
-  // tmux,
-  // wezterm,
-  // windows_terminal,
-  // xresources,
+  kitty,
+  konsole,
+  tmux,
+  wezterm,
+  windows_terminal,
+  xresources,
 };

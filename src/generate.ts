@@ -10,8 +10,12 @@ const titleCase = (s: string) => {
   );
 };
 
+const outDir = path.resolve(path.parse(__dirname).dir, "themes");
+
+console.log("Loading themes Modules...");
 Object.values(modules).forEach((m) => {
-  const out = path.resolve(path.parse(__dirname).dir, "themes", m.name);
+  console.log(`Generating ${titleCase(m.name)} themes...`);
+  const out = path.resolve(outDir, m.name);
   if (!fs.existsSync(out)) {
     fs.mkdirSync(out, { recursive: true });
   }
@@ -31,3 +35,8 @@ Object.values(modules).forEach((m) => {
     });
   });
 });
+
+console.log("DONE");
+
+console.log(`\nThemes saved in '${outDir}'`);
+process.exit(0);
