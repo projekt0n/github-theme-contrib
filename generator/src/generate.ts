@@ -10,7 +10,7 @@ const titleCase = (s: string) => {
   );
 };
 
-const outDir = path.resolve(path.parse(__dirname).dir, "themes");
+const outDir = path.resolve(path.parse(__dirname).dir, "..", "themes");
 
 console.log("Loading themes Modules...");
 Object.values(modules).forEach((m) => {
