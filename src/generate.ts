@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 
+import palettes from "./lib/palettes";
 import modules from "./modules";
-import palettes from "./palettes";
 
 const titleCase = (s: string) => {
   return s.replace(/^_*(.)|_+(.)/g, (_, c, d) =>
@@ -11,7 +11,7 @@ const titleCase = (s: string) => {
 };
 
 Object.values(modules).forEach((m) => {
-  const out = path.resolve(path.parse(__dirname).dir, m.name);
+  const out = path.resolve(path.parse(__dirname).dir, "themes", m.name);
   if (!fs.existsSync(out)) {
     fs.mkdirSync(out, { recursive: true });
   }

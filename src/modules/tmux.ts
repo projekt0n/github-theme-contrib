@@ -1,15 +1,10 @@
 import { PrimerPalette } from "types/palette";
-import { blend } from "../libs/colors";
 
 export default {
   name: "tmux",
   ext: "conf",
   generate: (name: string, p: PrimerPalette): string => {
     const header = `(${name}) Colors for Tmux`;
-
-    const parse = (c: string): string => {
-      return blend(p.canvas.default, c);
-    };
 
     return `#!/usr/bin/env bash
 

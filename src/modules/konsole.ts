@@ -1,5 +1,5 @@
 import { PrimerPalette } from "types/palette";
-import { blend, hexToRGB } from "../libs/colors";
+import { hexToRGB } from "../lib/colors";
 
 const fmt = (hex: string): string => {
   const c = hexToRGB(hex);
@@ -11,10 +11,6 @@ export default {
   ext: "colorscheme",
   generate: (name: string, p: PrimerPalette): string => {
     const description = `${name} Colors for Konsole`;
-
-    const parse = (c: string): string => {
-      return blend(p.canvas.default, c);
-    };
 
     return `[Background]
 Color=${fmt(p.canvas.default)}

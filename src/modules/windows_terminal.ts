@@ -1,5 +1,5 @@
 import { PrimerPalette } from "types/palette";
-import { blend } from "../libs/colors";
+import { blend } from "../lib/colors";
 
 const fmt = (c: string): string => `"${c}"`;
 
