@@ -3,7 +3,7 @@ import { PrimerPalette } from "types/palette";
 export default {
   name: "xresources",
   ext: "Xresources",
-  generate: (_:string,p: PrimerPalette): string => {
+  generate: (_: string, p: PrimerPalette): string => {
     return `
 *.foreground:   ${p.fg.default}
 #ifdef background_opacity
@@ -29,6 +29,6 @@ export default {
 *.color12:      ${p.ansi.blueBright}
 *.color13:      ${p.ansi.magentaBright}
 *.color14:      ${p.ansi.cyanBright}
-*.color15:      ${p.ansi.whiteBright}`
+*.color15:      ${p.ansi.whiteBright}`;
   },
 };

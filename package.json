@@ -11,7 +11,8 @@
     "dev": "ts-node-dev --respawn --transpile-only src/generate.ts"
   },
   "dependencies": {
-    "@primer/primitives": "^7.11.14"
+    "@primer/primitives": "^7.11.14",
+    "color-blend": "^4.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.4.6",

@@ -1,15 +1,13 @@
 import { PrimerPalette } from "types/palette";
 
-const fmt=(c:string):string=>{
-  return `'${c.replace('#','')}'`
-}
+const fmt = (c: string): string => {
+  return `'${c.replace("#", "")}'`;
+};
 
 export default {
   name: "foot",
   ext: "",
-  generate: (name:string,p: PrimerPalette): string => {
-    const header=`${name} scheme for foot terminal`
-
+  generate: (_name: string, p: PrimerPalette): string => {
     return `[colors]
 background=${fmt(p.canvas.default)}
 foreground=${fmt(p.fg.default)}
