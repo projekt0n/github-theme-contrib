@@ -78,4 +78,4 @@ const blend = (background: string, color: string): string => {
   return RGBToHex(normal(c1, c2));
 };
 
-export { blend };
+export { blend, hexToRGB };
