@@ -1,0 +1,23 @@
+{
+  "name": "Github Light High Contrast",
+  "background": "#ffffff",
+  "foreground": "#010409",
+  "cursorColor": "#0e1116",
+  "selectionBackground": "#368cf9",
+  "black": "#0e1116",
+  "brightBlack": "#4b535d",
+  "red": "#a0111f",
+  "brightRed": "#86061d",
+  "green": "#024c1a",
+  "brightGreen": "#055d20",
+  "yellow": "#3f2200",
+  "brightYellow": "#4e2c00",
+  "blue": "#0349b4",
+  "brightBlue": "#1168e3",
+  "purple": "#622cbc",
+  "brightPurple": "#844ae7",
+  "cyan": "#1b7c83",
+  "brightCyan": "#3192aa",
+  "white": "#66707b",
+  "brightWhite": "#88929d"
+}

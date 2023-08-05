@@ -1,0 +1,26 @@
+
+*.foreground:   #c9d1d9
+#ifdef background_opacity
+*.background:   [background_opacity]#0d1117
+#else
+*.background:   #0d1117
+#endif
+*.cursorColor:  #73b7f2
+
+*.color0:       #484f58
+*.color1:       #ff7b72
+*.color2:       #58a6ff
+*.color3:       #d29922
+*.color4:       #58a6ff
+*.color5:       #bc8cff
+*.color6:       #39c5cf
+*.color7:       #b1bac4
+
+*.color8:       #6e7681
+*.color9:       #ffa198
+*.color10:      #79c0ff
+*.color11:      #e3b341
+*.color12:      #79c0ff
+*.color13:      #d2a8ff
+*.color14:      #56d4dd
+*.color15:      #ffffff

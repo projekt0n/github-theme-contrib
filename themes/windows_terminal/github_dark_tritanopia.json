@@ -1,0 +1,23 @@
+{
+  "name": "Github Dark Tritanopia",
+  "background": "#0d1117",
+  "foreground": "#c9d1d9",
+  "cursorColor": "#c9d1d9",
+  "selectionBackground": "#1e4273",
+  "black": "#484f58",
+  "brightBlack": "#6e7681",
+  "red": "#ff7b72",
+  "brightRed": "#ffa198",
+  "green": "#58a6ff",
+  "brightGreen": "#79c0ff",
+  "yellow": "#d29922",
+  "brightYellow": "#e3b341",
+  "blue": "#58a6ff",
+  "brightBlue": "#79c0ff",
+  "purple": "#bc8cff",
+  "brightPurple": "#d2a8ff",
+  "cyan": "#39c5cf",
+  "brightCyan": "#56d4dd",
+  "white": "#b1bac4",
+  "brightWhite": "#ffffff"
+}

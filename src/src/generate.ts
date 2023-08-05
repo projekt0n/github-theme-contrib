@@ -20,19 +20,15 @@ Object.values(modules).forEach((m) => {
     fs.mkdirSync(out, { recursive: true });
   }
 
-  (Object.keys(palettes) as (keyof typeof palettes)[]).forEach((key, _) => {
-    let name = `github_${key}`;
+  (Object.keys(palettes) as (keyof typeof palettes)[]).forEach((k, _) => {
+    let name = `github_${k}`;
 
-    const data = m.generate(titleCase(name), palettes[key]);
+    const data = m.generate(titleCase(name), palettes[k]);
 
     name = m.ext ? `${name}.${m.ext}` : name;
     const file = path.resolve(out, name);
 
-    fs.writeFile(file, data, {}, (err) => {
-      if (err) {
-        console.error(err);
-      }
-    });
+    fs.writeFileSync(file, data, { flag: "w" } );
   });
 });
 
