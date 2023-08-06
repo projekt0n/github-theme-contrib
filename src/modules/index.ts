@@ -6,8 +6,8 @@ import kitty from "./kitty";
 import konsole from "./konsole";
 import tmux from "./tmux";
 import wezterm from "./wezterm";
-import xfce_terminal from "./xfce_terminal";
 import windows_terminal from "./windows_terminal";
+import xfce_terminal from "./xfce_terminal";
 import xresources from "./xresources";
 
 export default {
@@ -19,7 +19,7 @@ export default {
   konsole,
   tmux,
   wezterm,
-  xfce_terminal,
   windows_terminal,
+  xfce_terminal,
   xresources,
 };

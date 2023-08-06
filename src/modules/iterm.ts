@@ -1,5 +1,5 @@
-import { PrimerPalette } from "types/palette";
-import { blend, hexToRGB } from "../lib/colors";
+import { PrimerPalette } from "palette";
+import { blend, hexToRGB } from "@lib/colors";
 
 const xmlElement = (k: string, c: string): string => {
   const { r, g, b } = hexToRGB(c);

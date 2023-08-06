@@ -1,8 +1,10 @@
+import "module-alias/register";
+
 import fs from "fs";
 import path from "path";
 
-import palettes from "./lib/palettes";
-import modules from "./modules";
+import modules from "@root/modules";
+import palettes from "@lib/palettes";
 
 const titleCase = (s: string) => {
   return s.replace(/^_*(.)|_+(.)/g, (_, c, d) =>

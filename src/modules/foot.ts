@@ -1,4 +1,4 @@
-import { PrimerPalette } from "types/palette";
+import { PrimerPalette } from "palette";
 
 const fmt = (c: string): string => {
   return `'${c.replace("#", "")}'`;

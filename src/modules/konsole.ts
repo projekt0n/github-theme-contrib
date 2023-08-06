@@ -1,5 +1,5 @@
-import { PrimerPalette } from "types/palette";
-import { hexToRGB } from "../lib/colors";
+import { PrimerPalette } from "palette";
+import { hexToRGB } from "@lib/colors";
 
 const fmt = (hex: string): string => {
   const c = hexToRGB(hex);
