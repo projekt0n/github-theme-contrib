@@ -8,10 +8,13 @@ const fmt = (c: string): string => {
 export default {
   name: "wezterm",
   ext: "toml",
-  generate: (_name: string, p: PrimerPalette): string => {
+  generate: (name: string, p: PrimerPalette): string => {
     const parse = (c: string): string => blend(p.canvas.default, c);
 
-    return `[colors]
+    const header = `(${name}) Colors for kitty`;
+    return `# ${header}
+
+[colors]
 background = ${fmt(p.canvas.default)}
 foreground = ${fmt(p.fg.default)}
 

@@ -1,3 +1,8 @@
+[General]
+Description=Github Dark High Contrast Colors for Konsole
+Opacity=1
+Wallpaper=
+
 [Background]
 Color=10,12,16
 
@@ -87,9 +92,3 @@ Color=0,0,0
 
 [ForegroundIntense]
 Color=240,243,246
-
-[General]
-Description=Github Dark High Contrast Colors for Konsole
-
-Opacity=1
-Wallpaper=

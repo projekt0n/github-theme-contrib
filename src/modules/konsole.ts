@@ -12,7 +12,12 @@ export default {
   generate: (name: string, p: PrimerPalette): string => {
     const description = `${name} Colors for Konsole`;
 
-    return `[Background]
+    return `[General]
+Description=${description}
+Opacity=1
+Wallpaper=
+
+[Background]
 Color=${fmt(p.canvas.default)}
 
 [BackgroundFaint]
@@ -100,12 +105,6 @@ Color=${fmt(fmt(p.fg.default))}
 Color=${fmt(fmt(p.fg.subtle))}
 
 [ForegroundIntense]
-Color=${fmt(p.fg.muted)}
-
-[General]
-Description=${description}
-
-Opacity=1
-Wallpaper=`;
+Color=${fmt(p.fg.muted)}`;
   },
 };

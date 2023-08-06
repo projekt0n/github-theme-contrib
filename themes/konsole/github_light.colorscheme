@@ -1,3 +1,8 @@
+[General]
+Description=Github Light Colors for Konsole
+Opacity=1
+Wallpaper=
+
 [Background]
 Color=255,255,255
 
@@ -87,9 +92,3 @@ Color=0,0,0
 
 [ForegroundIntense]
 Color=101,109,118
-
-[General]
-Description=Github Light Colors for Konsole
-
-Opacity=1
-Wallpaper=

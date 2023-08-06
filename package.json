@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "ts-node-dev --respawn --watch src ./src/build.ts",
+    "dev": "ts-node-dev --debug --respawn --transpile-only src/build.ts",
     "build": "rm -rf dist && tsc -p . && node dist/build.js",
     "serve": "yarn build"
   },

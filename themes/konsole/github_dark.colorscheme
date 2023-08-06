@@ -1,3 +1,8 @@
+[General]
+Description=Github Dark Colors for Konsole
+Opacity=1
+Wallpaper=
+
 [Background]
 Color=48,54,61
 
@@ -87,9 +92,3 @@ Color=0,0,0
 
 [ForegroundIntense]
 Color=125,133,144
-
-[General]
-Description=Github Dark Colors for Konsole
-
-Opacity=1
-Wallpaper=
