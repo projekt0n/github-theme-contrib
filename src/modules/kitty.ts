@@ -5,27 +5,21 @@ export default {
   name: "kitty",
   ext: "conf",
   generate: (name: string, p: PrimerPalette): string => {
+    const parse = (c: string): string => blend(p.canvas.default, c);
+
     const header = `(${name}) Colors for kitty`;
-
-    const parse = (c: string): string => {
-      return blend(p.canvas.default, c);
-    };
-
     return `# ${header}
 
 background ${p.canvas.default}
 foreground ${p.fg.default}
 url_color ${p.fg.default}
 
-selection_background ${parse(p.codemirror.selectionBg)}
-selection_foreground background
-
 cursor ${parse(p.codemirror.cursor)}
 cursor_text_color background
 
 # Tabs
-active_tab_background ${parse(p.accent.muted)}
-active_tab_foreground ${p.fg.default}
+active_tab_background ${parse(p.open.fg)}
+active_tab_foreground ${p.canvas.default}
 inactive_tab_background ${parse(p.accent.subtle)}
 inactive_tab_foreground ${p.fg.subtle}
 

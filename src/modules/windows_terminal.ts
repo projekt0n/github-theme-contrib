@@ -7,9 +7,7 @@ export default {
   name: "windows_terminal",
   ext: "json",
   generate: (name: string, p: PrimerPalette): string => {
-    const parse = (c: string): string => {
-      return blend(p.canvas.default, c);
-    };
+    const parse = (c: string): string => blend(p.canvas.default, c);
 
     return `{
   "name": ${fmt(name)},

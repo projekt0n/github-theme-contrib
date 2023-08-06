@@ -8,8 +8,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/generate.ts",
-    "generate": "tsc -p . && node dist/generate.js"
+    "dev": "ts-node-dev --respawn --transpile-only src/build.ts",
+    "build": "tsc -p . && node dist/build.js",
+    "serve": "yarn build"
   },
   "dependencies": {
     "@primer/primitives": "^7.11.14",

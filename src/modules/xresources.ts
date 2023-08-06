@@ -1,9 +1,12 @@
 import { PrimerPalette } from "types/palette";
+import { blend } from "../lib/colors";
 
 export default {
   name: "xresources",
   ext: "Xresources",
-  generate: (_: string, p: PrimerPalette): string => {
+  generate: (_name: string, p: PrimerPalette): string => {
+    const parse = (c: string): string => blend(p.canvas.default, c);
+
     return `
 *.foreground:   ${p.fg.default}
 #ifdef background_opacity
@@ -11,7 +14,7 @@ export default {
 #else
 *.background:   ${p.canvas.default}
 #endif
-*.cursorColor:  #73b7f2
+*.cursorColor:  ${parse(p.codemirror.cursor)}
 
 *.color0:       ${p.ansi.black}
 *.color1:       ${p.ansi.red}

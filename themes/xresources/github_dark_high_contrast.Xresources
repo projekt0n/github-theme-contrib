@@ -5,7 +5,7 @@
 #else
 *.background:   #0a0c10
 #endif
-*.cursorColor:  #73b7f2
+*.cursorColor:  #f0f3f6
 
 *.color0:       #7a828e
 *.color1:       #ff9492

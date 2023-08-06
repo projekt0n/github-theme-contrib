@@ -9,9 +9,7 @@ export default {
   name: "wezterm",
   ext: "toml",
   generate: (_name: string, p: PrimerPalette): string => {
-    const parse = (c: string): string => {
-      return blend(p.canvas.default, c);
-    };
+    const parse = (c: string): string => blend(p.canvas.default, c);
 
     return `[colors]
 background = ${fmt(p.canvas.default)}
@@ -22,7 +20,7 @@ cursor_border = ${fmt(p.codemirror.cursor)}
 cursor_fg = ${fmt(p.canvas.default)}
 
 selection_bg = ${fmt(parse(p.codemirror.selectionBg))}
-selection_fg = ${fmt(p.canvas.default)}
+selection_fg = ${fmt(p.fg.default)}
 
 ansi = [
     ${fmt(p.ansi.black)},

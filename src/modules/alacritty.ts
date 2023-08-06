@@ -9,12 +9,9 @@ export default {
   name: "alacritty",
   ext: "yml",
   generate: (name: string, p: PrimerPalette): string => {
+    const parse = (c: string): string => blend(p.canvas.default, c);
+
     const header = `(${name}) Colors for Alacritty`;
-
-    const parse = (c: string): string => {
-      return blend(p.canvas.default, c);
-    };
-
     return `# ${header}
 
 colors:

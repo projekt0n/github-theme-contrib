@@ -7,7 +7,7 @@ cursor_border = '#1F2328'
 cursor_fg = '#ffffff'
 
 selection_bg = '#bbdfff'
-selection_fg = '#ffffff'
+selection_fg = '#1F2328'
 
 ansi = [
     '#24292f',

@@ -10,7 +10,7 @@ const titleCase = (s: string) => {
   );
 };
 
-const outDir = path.resolve(path.parse(__dirname).dir, "..", "themes");
+const outDir = path.resolve(path.parse(__dirname).dir, "themes");
 
 console.log("Loading themes Modules...");
 Object.values(modules).forEach((m) => {
@@ -28,7 +28,7 @@ Object.values(modules).forEach((m) => {
     name = m.ext ? `${name}.${m.ext}` : name;
     const file = path.resolve(out, name);
 
-    fs.writeFileSync(file, data, { flag: "w" } );
+    fs.writeFileSync(file, data, { flag: "w" });
   });
 });
 
