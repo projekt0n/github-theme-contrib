@@ -8,24 +8,19 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "ts-node-dev --debug --respawn --transpile-only src/build.ts",
-    "build": "rm -rf dist && tsc -p . && node dist/build.js",
+    "dev": "ts-node-dev -r tsconfig-paths/register --debug --respawn --transpile-only src/build.ts",
+    "build": "ts-node -r tsconfig-paths/register src/build.ts",
     "serve": "yarn build"
   },
   "dependencies": {
     "@primer/primitives": "^7.11.14",
-    "color-blend": "^4.0.0",
-    "module-alias": "^2.2.3"
+    "color-blend": "^4.0.0"
   },
   "devDependencies": {
-    "@types/module-alias": "^2.0.1",
     "@types/node": "^20.4.6",
     "nodemon": "^3.0.1",
     "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.1.6"
-  },
-  "_moduleAliases": {
-    "@root": "dist",
-    "@lib": "dist/lib"
   }
 }

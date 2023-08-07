@@ -41,6 +41,7 @@ const parseRGBAStr = (str: string): Color | undefined => {
     };
   }
 };
+
 const RGBToHex = (c: Color) => {
   let r = (+c.r).toString(16),
     g = (+c.g).toString(16),
