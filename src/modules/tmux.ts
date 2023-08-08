@@ -7,10 +7,9 @@ export default {
   generate: (name: string, p: PrimerPalette): string => {
     const parse = (s: string) => blend(p.canvas.default, s);
 
-    const header = `(${name}) Colors for Tmux`;
     return `#!/usr/bin/env bash
 
-# ${header}
+# (${name}) Colors for Tmux
 
 set -g mode-style "fg=${p.fg.default},bg=${p.canvas.default}"
 
@@ -59,10 +58,10 @@ setw -g window-status-format "#[fg=${p.fg.default},bg=${
       p.fg.default
     },nobold,nounderscore,noitalics]"
 setw -g window-status-current-format "#[fg=${p.fg.default},bg=${parse(
-      p.neutral.subtle
+      p.open.fg
     )},nobold,nounderscore,noitalics]#[fg=${p.canvas.default},bg=${parse(
-      p.neutral.subtle
-    )},bold] #I  #W #F #[fg=${parse(p.neutral.subtle)},bg=${
+      p.open.fg
+    )},bold] #I  #W #F #[fg=${parse(p.open.fg)},bg=${
       p.fg.default
     },nobold,nounderscore,noitalics]"`;
   },

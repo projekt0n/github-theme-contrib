@@ -1,3 +1,4 @@
+! (Github Light) Colors for Xresources
 
 *.foreground:   #1F2328
 #ifdef background_opacity

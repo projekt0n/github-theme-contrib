@@ -7,8 +7,7 @@ export default {
   generate: (name: string, p: PrimerPalette): string => {
     const parse = (c: string): string => blend(p.canvas.default, c);
 
-    const header = `(${name}) Colors for kitty`;
-    return `# ${header}
+    return `# (${name}) Colors for kitty
 
 background ${p.canvas.default}
 foreground ${p.fg.default}

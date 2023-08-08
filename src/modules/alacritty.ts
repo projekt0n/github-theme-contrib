@@ -11,8 +11,7 @@ export default {
   generate: (name: string, p: PrimerPalette): string => {
     const parse = (c: string): string => blend(p.canvas.default, c);
 
-    const header = `(${name}) Colors for Alacritty`;
-    return `# ${header}
+    return `# (${name}) Colors for Alacritty
 
 colors:
   # Default colors
@@ -29,24 +28,24 @@ colors:
 
   # Normal colors
   normal:
-    black:   ${fmt(p.ansi.black)}
-    red:     ${fmt(p.ansi.red)}
-    green:   ${fmt(p.ansi.green)}
-    yellow:  ${fmt(p.ansi.yellow)}
-    blue:    ${fmt(p.ansi.blue)}
+    black: ${fmt(p.ansi.black)}
+    red: ${fmt(p.ansi.red)}
+    green: ${fmt(p.ansi.green)}
+    yellow: ${fmt(p.ansi.yellow)}
+    blue: ${fmt(p.ansi.blue)}
     magenta: ${fmt(p.ansi.magenta)}
-    cyan:    ${fmt(p.ansi.cyan)}
-    white:   ${fmt(p.ansi.white)}
+    cyan: ${fmt(p.ansi.cyan)}
+    white: ${fmt(p.ansi.white)}
 
   # Bright colors
   bright:
-    black:   ${fmt(p.ansi.blackBright)}
-    red:     ${fmt(p.ansi.redBright)}
-    green:   ${fmt(p.ansi.greenBright)}
-    yellow:  ${fmt(p.ansi.yellowBright)}
-    blue:    ${fmt(p.ansi.blueBright)}
+    black: ${fmt(p.ansi.blackBright)}
+    red: ${fmt(p.ansi.redBright)}
+    green: ${fmt(p.ansi.greenBright)}
+    yellow: ${fmt(p.ansi.yellowBright)}
+    blue: ${fmt(p.ansi.blueBright)}
     magenta: ${fmt(p.ansi.magenta)}
-    cyan:    ${fmt(p.ansi.cyan)}
-    white:   ${fmt(p.ansi.white)}`;
+    cyan: ${fmt(p.ansi.cyan)}
+    white: ${fmt(p.ansi.white)}`;
   },
 };

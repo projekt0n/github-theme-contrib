@@ -1,3 +1,4 @@
+! (Github Dark) Colors for Xresources
 
 *.foreground:   #e6edf3
 #ifdef background_opacity

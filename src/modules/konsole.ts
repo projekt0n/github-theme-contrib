@@ -10,10 +10,8 @@ export default {
   name: "konsole",
   ext: "colorscheme",
   generate: (name: string, p: PrimerPalette): string => {
-    const description = `${name} Colors for Konsole`;
-
     return `[General]
-Description=${description}
+Description=${name} Colors for Konsole
 Opacity=1
 Wallpaper=
 

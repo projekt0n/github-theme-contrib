@@ -7,24 +7,22 @@ export default {
   generate: (name: string, p: PrimerPalette): string => {
     const parse = (c: string) => blend(p.canvas.default, c);
 
-    return `[Scheme]
-Name=${name}
+    return `# (${name}) for Xfce4 Terminal
 
+[Scheme]
+Name=${name}
 ColorBackground=${p.canvas.default}
 ColorForeground=${p.fg.default}
-
 ColorCursor=${parse(p.codemirror.cursor)}
-ColorCursorForeground=${p.canvas.default}
-ColorSelectionBackground=${parse(p.codemirror.selectionBg)}
-ColorSelection=${p.fg.default}
-TabActivityColor=${p.open.fg}
-
+TabActivityColor=${p.closed.fg}
 ColorPalette=${p.ansi.black};${p.ansi.red};${p.ansi.green};${p.ansi.yellow};${
       p.ansi.blue
     };${p.ansi.magenta};${p.ansi.cyan};${p.ansi.white};${p.ansi.blackBright};${
       p.ansi.redBright
     };${p.ansi.greenBright};${p.ansi.yellowBright};${p.ansi.blueBright};${
       p.ansi.magentaBright
-    };${p.ansi.cyanBright};${p.ansi.whiteBright};`;
+    };${p.ansi.cyanBright};${p.ansi.whiteBright};
+ColorBold=${parse(p.codemirror.cursor)}
+ColorBoldUseDefault=FALSE`;
   },
 };

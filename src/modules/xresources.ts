@@ -4,10 +4,11 @@ import { blend } from "@lib/colors";
 export default {
   name: "xresources",
   ext: "Xresources",
-  generate: (_name: string, p: PrimerPalette): string => {
+  generate: (name: string, p: PrimerPalette): string => {
     const parse = (c: string): string => blend(p.canvas.default, c);
 
-    return `
+    return `! (${name}) Colors for Xresources
+
 *.foreground:   ${p.fg.default}
 #ifdef background_opacity
 *.background:   [background_opacity]${p.canvas.default}

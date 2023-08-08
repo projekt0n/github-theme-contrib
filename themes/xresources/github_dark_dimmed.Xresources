@@ -1,3 +1,4 @@
+! (Github Dark Dimmed) Colors for Xresources
 
 *.foreground:   #adbac7
 #ifdef background_opacity

@@ -1,3 +1,4 @@
+! (Github Light High Contrast) Colors for Xresources
 
 *.foreground:   #010409
 #ifdef background_opacity

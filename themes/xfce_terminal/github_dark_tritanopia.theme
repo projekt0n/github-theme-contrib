@@ -1,13 +1,11 @@
+# (Github Dark Tritanopia) for Xfce4 Terminal
+
 [Scheme]
 Name=Github Dark Tritanopia
-
 ColorBackground=#0d1117
 ColorForeground=#c9d1d9
-
 ColorCursor=#c9d1d9
-ColorCursorForeground=#0d1117
-ColorSelectionBackground=#1e4273
-ColorSelection=#c9d1d9
-TabActivityColor=#ff7b72
-
+TabActivityColor=#8b949e
 ColorPalette=#484f58;#ff7b72;#58a6ff;#d29922;#58a6ff;#bc8cff;#39c5cf;#b1bac4;#6e7681;#ffa198;#79c0ff;#e3b341;#79c0ff;#d2a8ff;#56d4dd;#ffffff;
+ColorBold=#c9d1d9
+ColorBoldUseDefault=FALSE
