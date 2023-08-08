@@ -1,4 +1,5 @@
 import alacritty from "./alacritty";
+import fish from "./fish";
 import foot from "./foot";
 import fzf from "./fzf";
 import iterm from "./iterm";
@@ -12,6 +13,7 @@ import xresources from "./xresources";
 
 export default {
   alacritty,
+  fish,
   foot,
   fzf,
   iterm,
