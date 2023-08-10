@@ -9,7 +9,7 @@ GitHub's themes ports and extras.
 
 ![shoutout-sponsors](https://sponsor-spotlight.vercel.app/sponsor?login=ful1e5)
 
-> **Warning** This project relies on sponsorships. Meeting sponsorship goals on GitHub will result in new ports.
+> **Note:** This project relies on sponsorships. Meeting sponsorship goals on GitHub will result in new ports.
 
 - **2023-08-03**: The hard-coded theme has been replaced with a template-based theme generator, utilizing the latest primer palettes. This enhancement ensures up-to-date and dynamic theming.
 
