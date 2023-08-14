@@ -11,7 +11,7 @@ export default {
   ext: "colorscheme",
   generate: (name: string, p: PrimerPalette): string => {
     return `[General]
-Description=${name} Colors for Konsole
+Description=${name}
 Opacity=1
 Wallpaper=
 
@@ -85,22 +85,22 @@ Color=${fmt(p.ansi.cyan)}
 Color=${fmt(p.ansi.cyan)}
 
 [Color6Intense]
-Color=${fmt(fmt(p.ansi.cyanBright))}
+Color=${fmt(p.ansi.cyanBright)}
 
 [Color7]
-Color=${fmt(fmt(p.ansi.white))}
+Color=${fmt(p.ansi.white)}
 
 [Color7Faint]
-Color=${fmt(fmt(p.ansi.white))}
+Color=${fmt(p.ansi.white)}
 
 [Color7Intense]
-Color=${fmt(fmt(p.ansi.whiteBright))}
+Color=${fmt(p.ansi.whiteBright)}
 
 [Foreground]
-Color=${fmt(fmt(p.fg.default))}
+Color=${fmt(p.fg.default)}
 
 [ForegroundFaint]
-Color=${fmt(fmt(p.fg.subtle))}
+Color=${fmt(p.fg.subtle)}
 
 [ForegroundIntense]
 Color=${fmt(p.fg.muted)}`;

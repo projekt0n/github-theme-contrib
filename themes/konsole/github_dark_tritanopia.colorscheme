@@ -1,5 +1,5 @@
 [General]
-Description=Github Dark Tritanopia Colors for Konsole
+Description=Github Dark Tritanopia
 Opacity=1
 Wallpaper=
 
@@ -73,22 +73,22 @@ Color=57,197,207
 Color=57,197,207
 
 [Color6Intense]
-Color=0,0,0
+Color=86,212,221
 
 [Color7]
-Color=0,0,0
+Color=177,186,196
 
 [Color7Faint]
-Color=0,0,0
+Color=177,186,196
 
 [Color7Intense]
-Color=0,0,0
+Color=255,255,255
 
 [Foreground]
-Color=0,0,0
+Color=201,209,217
 
 [ForegroundFaint]
-Color=0,0,0
+Color=110,118,129
 
 [ForegroundIntense]
 Color=139,148,158

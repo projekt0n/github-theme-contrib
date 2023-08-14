@@ -1,5 +1,5 @@
 [General]
-Description=Github Light High Contrast Colors for Konsole
+Description=Github Light High Contrast
 Opacity=1
 Wallpaper=
 
@@ -73,22 +73,22 @@ Color=27,124,131
 Color=27,124,131
 
 [Color6Intense]
-Color=0,0,0
+Color=49,146,170
 
 [Color7]
-Color=0,0,0
+Color=102,112,123
 
 [Color7Faint]
-Color=0,0,0
+Color=102,112,123
 
 [Color7Intense]
-Color=0,0,0
+Color=136,146,157
 
 [Foreground]
-Color=0,0,0
+Color=1,4,9
 
 [ForegroundFaint]
-Color=0,0,0
+Color=102,112,123
 
 [ForegroundIntense]
 Color=14,17,22

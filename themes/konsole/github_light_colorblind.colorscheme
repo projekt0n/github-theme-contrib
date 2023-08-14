@@ -1,5 +1,5 @@
 [General]
-Description=Github Light Colorblind Colors for Konsole
+Description=Github Light Colorblind
 Opacity=1
 Wallpaper=
 
@@ -73,22 +73,22 @@ Color=27,124,131
 Color=27,124,131
 
 [Color6Intense]
-Color=0,0,0
+Color=49,146,170
 
 [Color7]
-Color=0,0,0
+Color=110,119,129
 
 [Color7Faint]
-Color=0,0,0
+Color=110,119,129
 
 [Color7Intense]
-Color=0,0,0
+Color=140,149,159
 
 [Foreground]
-Color=0,0,0
+Color=27,31,36
 
 [ForegroundFaint]
-Color=0,0,0
+Color=110,119,129
 
 [ForegroundIntense]
 Color=87,96,106
