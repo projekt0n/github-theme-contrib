@@ -1,6 +1,6 @@
 {
   "name": "github-theme-contrib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub's themes ports and extras",
   "main": "dist/index.js",
   "repository": "git@github.com:projekt0n/github-theme-contrib.git",
