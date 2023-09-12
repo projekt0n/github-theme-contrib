@@ -6,19 +6,19 @@ const xmlElement = (k: string, c: string): string => {
 
   const fmt = (i: number) => (i / 255).toFixed(16);
 
-  return `	<key>${k} Color</key>
-	<dict>
-		<key>Alpha Component</key>
-		<real>1</real>
-		<key>Blue Component</key>
-		<real>${fmt(b)}</real>
-		<key>Color Space</key>
-		<string>sRGB</string>
-		<key>Green Component</key>
-		<real>${fmt(g)}</real>
-		<key>Red Component</key>
-		<real>${fmt(r)}</real>
-	</dict>
+  return `    <key>${k} Color</key>
+    <dict>
+      <key>Alpha Component</key>
+      <real>1</real>
+      <key>Blue Component</key>
+      <real>${fmt(b)}</real>
+      <key>Color Space</key>
+      <string>sRGB</string>
+      <key>Green Component</key>
+      <real>${fmt(g)}</real>
+      <key>Red Component</key>
+      <real>${fmt(r)}</real>
+    </dict>
 `;
 };
 
@@ -61,9 +61,9 @@ export default {
     return `<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
+  <dict>
 ${elements.trimEnd()}
-</dict>
+  </dict>
 </plist>
 `;
   },
