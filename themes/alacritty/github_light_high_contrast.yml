@@ -4,7 +4,7 @@ colors:
   # Default colors
   primary:
     background: '0xffffff'
-    foreground: '0x010409'
+    foreground: '0x0e1116'
 
   # Cursor colors
   #

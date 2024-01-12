@@ -1,5 +1,5 @@
 # (Github Light High Contrast) Colors for Fish shell
-set -l comment 66707b
+set -l comment 4b535d
 
 # Shell highlight groups
 # (https://fishshell.com/docs/current/interactive.html#variables-color)

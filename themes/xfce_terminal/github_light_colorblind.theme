@@ -3,7 +3,7 @@
 [Scheme]
 Name=Github Light Colorblind
 ColorBackground=#ffffff
-ColorForeground=#1b1f24
+ColorForeground=#24292f
 ColorCursor=#24292f
 TabActivityColor=#6e7781
 ColorPalette=#24292f;#b35900;#0550ae;#4d2d00;#0969da;#8250df;#1b7c83;#6e7781;#57606a;#8a4600;#0969da;#633c01;#218bff;#a475f9;#3192aa;#8c959f;

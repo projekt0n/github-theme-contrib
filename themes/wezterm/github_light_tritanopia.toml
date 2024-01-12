@@ -2,14 +2,14 @@
 
 [colors]
 background = '#ffffff'
-foreground = '#1b1f24'
+foreground = '#24292f'
 
 cursor_bg = '#24292f'
 cursor_border = '#24292f'
 cursor_fg = '#ffffff'
 
 selection_bg = '#bbdfff'
-selection_fg = '#1b1f24'
+selection_fg = '#24292f'
 
 ansi = [
     '#24292f',

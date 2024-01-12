@@ -1,6 +1,6 @@
 ! (Github Light Colorblind) Colors for Xresources
 
-*.foreground:   #1b1f24
+*.foreground:   #24292f
 #ifdef background_opacity
 *.background:   [background_opacity]#ffffff
 #else

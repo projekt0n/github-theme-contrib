@@ -1,5 +1,5 @@
 # (Github Light Tritanopia) Colors for Fish shell
-set -l comment 6e7781
+set -l comment 57606a
 
 # Shell highlight groups
 # (https://fishshell.com/docs/current/interactive.html#variables-color)

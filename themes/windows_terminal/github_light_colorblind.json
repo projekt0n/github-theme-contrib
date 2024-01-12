@@ -1,7 +1,7 @@
 {
   "name": "Github Light Colorblind",
   "background": "#ffffff",
-  "foreground": "#1b1f24",
+  "foreground": "#24292f",
   "cursorColor": "#24292f",
   "selectionBackground": "#bbdfff",
   "black": "#24292f",
